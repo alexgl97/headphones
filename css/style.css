@@ -1,0 +1,240 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center; 
+    scroll-behavior: smooth; 
+ 
+}
+.registration{
+    display: inline-block;
+    margin-top: 1.3%;
+}
+#namediv{
+    margin-bottom: 0.7%;
+}
+#namediv input{
+    max-width: 200px;
+}
+#passdiv{
+    margin-bottom: 0.7%;
+}
+#passdiv input{
+    max-width: 200px;
+}
+#emaildiv{
+    margin-bottom: 0.7%;
+}
+
+
+#title{
+    max-width: 100%;
+    padding-bottom: 30%;
+    background-image:
+  url('../img/1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+#title a{
+    color: white !important;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.firstsection button{   
+    background-color: #c0e5de;
+    text-decoration: none;
+
+    display: inline;
+    margin-top: 0%;
+
+
+    /* color: #f64c72;  */
+}
+.btn:hover{
+    transition-duration: 0.4s;
+    /* color: #f64c72;
+    background-color: #553d67; */
+
+}
+
+#second h1{
+    padding: 5%;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+#title h1{
+    padding-top: 35%;
+    color: white;
+}
+
+#title p{
+    color: white;
+}
+
+.mibtn button{
+    background-color: #f8b7b5;
+
+    margin-top: 0;
+}
+
+#second img:hover{
+    width: 215px;
+}
+#second img{
+    width: 200px;
+    height: 200px;
+    transition: width 1s,height 1s;
+    
+}
+
+.third img:hover{
+    width: 215px;
+}
+
+.third img{
+    width: 200px;
+    height: 200px;
+    transition: width 1s,height 1s;
+}
+
+h6{
+    font-weight: 600;
+}
+
+#second button{
+    background-color: #c0e5de;
+}
+
+.third button{
+    background-color: #c0e5de;
+    
+}
+
+
+#fifth img{
+    margin-bottom: 6%;
+    width: 250px;
+    height: 300px;
+    padding-top: 2rem;
+}
+
+.sixth button{
+    margin-top: 1%;
+    background-color: #f8b7b5;
+}
+
+.fifth img:hover{
+    width: 265px;
+}
+
+.fifth img{
+    width: 250px;
+    height: 250px;
+    transition: width 0.5s,height 0.5s;
+    
+}
+.featured{
+    padding: 3% 0;
+    background-color: #c0e5de;
+    margin-top: 5%;
+}
+#sixth input{
+    border-radius: 5px;
+    width: 200px;
+    padding: 0.3%;
+    display: inline;
+}
+
+#sixth button{
+    margin-top: 1%;
+    background-color: #f8b7b5;
+    font-size: 0.9;	
+    width: 125px;	
+    align-items: center;
+
+}
+.sixth input{
+    border-radius: 5px;
+    width: 200px;
+}
+
+.specialoffer{
+    width: 100%;
+    padding: 3% 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    text-align: left !important;
+
+}
+
+.footer{
+    max-height: 550px;
+    padding-top: 2%;
+    justify-content: space-evenly;
+    background-color: #faf8f5;
+    margin-bottom: 2%;
+}
+
+
+.footer li{
+    list-style-type: none;
+}
+
+.footer h4{
+    padding: 0 0 0 7%;
+}
+
+.footer h4:nth-child(3){
+    padding-left: 0;
+}
+.registration input {
+    display: block;
+}
+
+#copyright{
+    display: block;
+    margin-top: 1%;
+    margin-right: 7%;
+}
+@media only screen and (max-width: 600px) {
+    footer{
+        margin-right: 13%;
+    }
+}
+@media only screen and (min-width: 768px){
+    .firstsection h1{
+     margin-top: 10%;
+    }
+    .firstsection button {
+        margin-top: 1%;
+    }
+    .footer{
+        margin-right: 7%;
+        align-items: center;
+        text-align: center;
+        
+    }
+    #copyright{
+        margin-left: 10%;
+    }
+}
